@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+/* 字體載入 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ↑↑↑ css resrt ↑↑↑ */
+
+
+body{
+    font-family: "Bruno Ace SC", sans-serif;
+    line-height: 1.5;
+}
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+.header{
+    background: #000;
+}
+.nav{
+    padding: 40px 0;
+}
+.nav a{
+    color: #d1d1d1;
+}
+.footer{
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* layout 佈局 */
+
+
+.btn{
+    padding: 12px 24px;
+    border-radius: 32px;
+}
+.btn-white{
+    background: #fff;
+    color: #000;
+}
+.btn-black{
+    background: #000;
+    color: #fff;
+}
+.btn-img{
+    display: inline-block;
+}
+
+/* component 元件 */
+
+
+.banner{
+    color: #fff;
+}
+.banner-text{
+    width: 636px;
+}
+.intro{
+    background: url(img/background-img.png) no-repeat;
+    background-size: cover;
+}
+.intro-text{
+    width: 526px;
+    color: #fff;
+}
+.about-list{
+    width: 636px;
+    gap: 24px;
+}
+.about-list li{
+    width: 306px;
+    padding: 16px;
+    border: 1px solid #e3e3e3;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.08);
+}
+.about-text{
+    width: 526px;
+}
+.contact{
+    background: linear-gradient(rgba(5, 0, 20, 1), rgba(1, 2, 30, 0.89));
+    color: #fff;
+    padding: 96px 0;
+}
+.contact-btn{
+    gap: 20px;
+}
+.contact-btn a{
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 40px;
+    transition: 0.5s;
+    /* 參考助教教學，動畫漸入+漸出 */
+}
+.contact-btn a:hover{
+    box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9);
+}
+.project h2{
+    width: 746px;
+    margin-left: auto;
+}
+.project-text{
+    width: 636px;/**/
+}
+.project-r, .project-t, .project-b{
+    gap: 24px;
+}
+/* ↑↑↑ page 本頁才有(非共有) ↑↑↑ */
+
+
+.container{
+    width: 1296px;
+    margin: 0 auto;
+}
+.h1{
+    font-size: 128px;
+}
+.h2{
+    font-size: 64px;
+}
+.fs-1{
+    font-size: 32px;
+}
+.fs-2{
+    font-size: 24px;
+}
+.fs-3{
+    font-size: 20px;
+}
+.text-primary{
+    color: #00FFA3;
+}
+.d-flex{
+    display: flex;
+}
+.ai-center{
+    align-items: center;
+}
+.jc-space-between{
+    justify-content: space-between;
+}
+.jc-end{
+    justify-content: end;
+}
+.fx-wrap{
+    flex-wrap: wrap;
+}
+.fxd-column{
+    flex-direction: column;
+}
+.text-align-r{
+    text-align: right;
+}
+.ml-1{
+    margin-left: 4px;
+}
+.ml-4{
+    margin-left: 16px;
+}
+.ml-6{
+    margin-left: 24px;
+}
+.mb-19{
+    margin-bottom: 76px;
+}
+.mb-9{
+    margin-bottom: 36px;
+}
+.mb-8{
+    margin-bottom: 32px;
+}
+.mb-6{
+    margin-bottom: 24px;
+}
+.mb-4{
+    margin-bottom: 16px;
+}
+.p-y40{
+    padding: 160px 0;
+}
+.p-4{
+    padding: 16px;
+}
+
+/* ↑↑↑ utils 通用樣式 ↑↑↑ */
+
